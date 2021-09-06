@@ -4,7 +4,7 @@
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - After performing our multiple linear regression on several variables we can observe that the following variables have a statistically significant p-value: 
     - Ground Clearance 5.21e-08
-    - Vehicle Length 2.60e-12 ***
+    - Vehicle Length 2.60e-12
     - Intercept 5.08e-08
     
  ![Multiple Linear Regression](/Resources/Deliverable1.png)
@@ -32,4 +32,17 @@ The design specifications for the MechaCar suspension coils dictate that the var
  
  ![Lot Summary](/Resources/Deliverable2_LotSummary.png)
  
- With this data we can observe that the variance for lot 3 exceeds the maximum limit of 100 pounds per square inch while lots 1 and 2 remain under the specified maximum variance
+ With this data we can observe that the variance for lot 3 exceeds the maximum limit of 100 pounds per square inch while lots 1 and 2 remain under the specified maximum variance.
+ 
+## T-Tests on Suspension Coils
+
+ ![t-test All](/Resources/Deliverable3_All.png)
+ 
+ 
+ ![t-test Lot1](/Resources/Deliverable3_Lot1.png)
+  
+  
+ ![t-test Lot2](/Resources/Deliverable3_Lot2.png)
+   
+   
+ ![t-test Lot3](/Resources/Deliverable3_Lot3.png)
