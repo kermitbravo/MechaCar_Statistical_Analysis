@@ -68,9 +68,19 @@ By observing our t-test results when leveraging a subset of the population (samp
 ## Study Design: MechaCar vs Competition.
 
 What metric or metrics are you going to test?
+0-60mph times for the MechaCar and the competition
 
 What is the null hypothesis or alternative hypothesis?
+H0 ( Null hypothesis ) - There is no difference between the MechaCar and the competition on 0-60 times
+H1 ( alternative hypothesis ) - There is a difference between the MechaCar and the competition on 0-60 times
 
 What statistical test would you use to test the hypothesis? And why?
+I would suggest using ANOVA testing to perform the statistical test given that we have multiple categorical variables 
 
 What data is needed to run the statistical test?
+We would need to collect on top of the variables that we currently have some additional variables like:
+ - Where was the car tested ( location )
+ - At what altitude
+ - What is the price or price range for the cars
+ - Engine Size
+ - 0-60 times
