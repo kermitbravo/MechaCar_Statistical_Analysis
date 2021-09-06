@@ -6,7 +6,8 @@
     - Ground Clearance 5.21e-08
     - Vehicle Length 2.60e-12 ***
     - Intercept 5.08e-08
-    ![Multiple Linear Regression](/Resources/Deliverable1.png)
+    
+ ![Multiple Linear Regression](/Resources/Deliverable1.png)
 
 - Is the slope of the linear model considered to be zero? Why or why not?
   Linear regression tests the following hypotheses:
