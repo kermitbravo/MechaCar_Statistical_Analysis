@@ -36,13 +36,41 @@ The design specifications for the MechaCar suspension coils dictate that the var
  
 ## T-Tests on Suspension Coils
 
- ![t-test All](/Resources/Deliverable3_All.png)
+For this section we will use t-test to compare the means of two groups. 
+
+With this test, we are trying to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch if analyzed as a whole or individually.
+
+We've split this analysis in 2 main sub-sections. 
+
+### Testing Population
+
+![t-test All](/Resources/Deliverable3_All.png)
  
+By observing our t-test results when leveraging our complete population as the metric against the population mean of 1,500 pounds per square inc, we can observe that the p-value is not statistically significant ( > 0.05 ). Which means we cannot reject our null hypothesis and say with high confidence that the difference is close to zero between the mean of the two groups.
+   
+### Testing Samples of the population
+
+![t-test Lot1](/Resources/Deliverable3_Lot1.png)
  
- ![t-test Lot1](/Resources/Deliverable3_Lot1.png)
+By observing our t-test results when leveraging a subset of the population (sample) for Lot 1 against the population mean of 1,500 pounds per square inc, we can observe that the p-value is not statistically significant ( > 0.05 ). Which means we cannot reject our null hypothesis. Which means we cannot reject our null hypothesis and say with high confidence that the difference is close to zero between the mean of the two groups.
   
   
- ![t-test Lot2](/Resources/Deliverable3_Lot2.png)
+![t-test Lot2](/Resources/Deliverable3_Lot2.png)
+ 
+By observing our t-test results when leveraging a subset of the population (sample) for Lot 2 against the population mean of 1,500 pounds per square inc, we can observe that the p-value is not statistically significant ( > 0.05 ).  Which means we cannot reject our null hypothesis and say with high confidence that the difference is close to zero between the mean of the two groups.
    
    
- ![t-test Lot3](/Resources/Deliverable3_Lot3.png)
+![t-test Lot3](/Resources/Deliverable3_Lot3.png)
+ 
+By observing our t-test results when leveraging a subset of the population (sample) for Lot 3 against the population mean of 1,500 pounds per square inc, we can observe that the p-value IS statistically significant ( < 0.05 ). Which means we can reject our null hypothesis and with a high degree of confidence say that the true difference between the two groups is not close to zero.
+
+
+## Study Design: MechaCar vs Competition.
+
+What metric or metrics are you going to test?
+
+What is the null hypothesis or alternative hypothesis?
+
+What statistical test would you use to test the hypothesis? And why?
+
+What data is needed to run the statistical test?
